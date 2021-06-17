@@ -1,5 +1,5 @@
 h=[-1 0 1;-2 0 2;-1 0 1];
-t = imread('fig4.41b.jpg');
+t = imread('fig4.41a.jpg');
 A_gray = rgb2gray(t);
 a=uint8(A_gray);
 
