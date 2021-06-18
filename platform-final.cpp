@@ -1,3 +1,8 @@
+// This is a C++ data analysis file, written within ROOT (a framework for data processing used at the large hadron collider project in CERN). 
+// The file produces histograms of exotic particles which may be detected by the collider. It does so by 
+For each particle the events are sorted into 
+// signal events and background events.
+
 {
 gSystem->Load("$ROOTSYS/lib/libPhysics.so");
 // Once MakeProject has been run once;
