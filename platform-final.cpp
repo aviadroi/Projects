@@ -2,6 +2,8 @@
 // The file produces histograms of exotic particles which result from simulating energetic processes within the collider and detecting them.
 // It does so by converting measured parameters into particle masses and superimposing signal events on background events.  
 // This enables highlighting the signal detectability over the background. 
+// The results are shown in the following published article: 
+// https://link.springer.com/article/10.1007/JHEP01(2021)031
 
 {
 gSystem->Load("$ROOTSYS/lib/libPhysics.so");
