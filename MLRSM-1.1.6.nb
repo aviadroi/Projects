@@ -1,7 +1,9 @@
-(* This is a a computational implementation of an advance particle model, the left-right symmetric model. *)
+(* This is a computational implementation of an advance particle model, the left-right symmetric model. *)
+(* The script is written in FeynRules, which is a Mathematica package. *)
 (* The model describes three out of the four fundemental forces of nature: the electromagnetic, weak, and strong.*)
 (* The model is based on group theory principles. It contains the possible particles and interactions generated *)
 (* by a Lagrangian which is invariant under transformations from certain symmetry groups (SU(3) × SU(2)L/R × U(1)). *)
+
 
 (***************************************************************************************************************)
 (******                       This is the FeynRules mod-file for the MLRSM(QMLRSM)                        ******)
