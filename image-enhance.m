@@ -1,3 +1,5 @@
+% Image Enhancement Using Intensity Transformations
+
 clear all; close all; clc;
 
 c=0.5;d=1;gamma=5;
