@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
+# A projects which builds two deep neural networks: with 2 layers and with L layers.
+# The user can train either the 2 layer or the L-layer network with the training and testing images (in the folder training_images) to identify a cat.
+# The user can then test the networks with his own images.
 
 # In[1]:
 
