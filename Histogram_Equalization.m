@@ -1,6 +1,7 @@
+% Program which perfroms histogram equalization based on the technique discussed in the textbook by Gonzales.
 clear all; close all; clc;
 % Read a RGB image
-A_gray = imread('fig3.20.jpg');
+A_gray = imread('figs/fig3.20.jpg');
 A_gray = rgb2gray(A_gray);
 [d,e]=imhist(A_gray);
 disp([d,e]);
