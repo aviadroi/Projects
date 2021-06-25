@@ -1,7 +1,9 @@
+% A program for converting the dots in gray-scale images into patterns (halftoning).
+
 clear all; close all; clc;
 
 % Read a RGB image
-A = imread('small2.jpg');
+A = imread('small.jpg');
 
 % Convert RGB image to Grayscale
 A_gray = rgb2gray(A);
