@@ -1,4 +1,4 @@
-% A program which reduces the number of intensity levels in a image (the user chooses 2^p levels).
+% A program which reduces the number of intensity levels in an image (the user chooses 2^p levels).
 
 clear all; close all; clc;
 % Read a RGB image
