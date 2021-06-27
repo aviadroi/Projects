@@ -1,12 +1,13 @@
-clear all; close all; clc;
+% A program which reduces the number of intensity levels in a image (the user chooses 2^p levels).
 
+clear all; close all; clc;
 % Read a RGB image
-A = imread('exmp3.jpg');
+A = imread('fig4.jpg');
 A_gray = rgb2gray(A);
 A_gray=im2double(A_gray);
 a2=zeros(size(A_gray,1),size(A_gray,2));
-a1=input('enter a number:');
-a2=assign4(A_gray,a1);
+p=input('enter a number:');
+a2=assign4(A_gray,p);
 a3=a2/255;
 figure, subplot(1, 2, 1), imshow(A), title('Input RGB image');
 subplot(1, 2, 2), imshow(a3), title('new Grayscale image');
