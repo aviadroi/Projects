@@ -1,3 +1,8 @@
+// The program consists of a function which returns the "river" sizes in a matrix.
+// It also writes the total number of the rivers.
+// "A river" is defined as the collection of adjacent (horizontally or vertically) 
+// matrix elemnts with the value 1 (the value 0 represents "land").
+
 #include <iostream>
 #include <cstdlib> 
 #include <vector>
@@ -13,7 +18,6 @@ using namespace std;
 
 
 int checkriv(vector<vector<int>> &matrix, vector<vector<int>> &riv, int &count, int y, int x) {
-	//vector<int> coord={riv[riv.size()-1][0],riv[riv.size()-1][1]};
 	riv.push_back({y,x});
 	if ((y>0) && (matrix[y-1][x]==1)&&(find(riv.begin(), riv.end(), (vector<int>){y-1,x}) == riv.end())) 
 	checkriv(matrix,riv,++count,y-1,x);
