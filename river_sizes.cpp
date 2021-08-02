@@ -60,8 +60,7 @@ vector<int> riverSizes(vector<vector<int>> matrix) {
 
 int main() 
 {
-int h=1;
-vector<int> m0{};
+vector<int> rivers{};
 vector<vector<int>> m1
 {
         {1, 0, 1, 0, 0, 0, 0},
@@ -69,11 +68,11 @@ vector<vector<int>> m1
         {0, 0, 0, 1, 1, 0, 0},
         {0, 0, 0, 0, 0, 0, 1}
 };
-m0=riverSizes(m1);
-for (int j = 0; j < m0.size(); j++)
+rivers=riverSizes(m1);
+for (int j = 0; j < rivers.size(); j++)
         {
-            cout << m0[j] << " ";
+            cout << rivers[j] << " ";
         } 
-cout << "\ncount=" << h << "\n";
+cout << "\ncount=" << rivers.size() << "\n";
 return 0;
 }
