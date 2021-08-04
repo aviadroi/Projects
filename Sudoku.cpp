@@ -1,3 +1,5 @@
+// A program which solves Sudoku.
+
 #include <iostream>
 #include <cmath>
 #include <cstdlib> 
