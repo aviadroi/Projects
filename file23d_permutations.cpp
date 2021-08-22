@@ -1,5 +1,5 @@
 // A program which takes an array of integers and returns an arryay of all the permutations of those integers.
-// The algorithm here is my own idea, not the classical way of iterating through lists of numbers.
+// The algorithm here is my alternative to the classical way of iterating through lists of numbers.
 // Instead, there is an iteration through indices of adjacent integers which permute with each other.
 
 #include <iostream>
