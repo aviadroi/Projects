@@ -1,3 +1,6 @@
+//A function which recieves a sequence of numbers and returns a subseuence 
+//(in which the order of the elemnts is the same as in the original sequence) with the maximal sum.
+
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
