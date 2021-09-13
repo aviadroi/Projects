@@ -1,7 +1,7 @@
 clear all; close all; clc;
 
 % Read a RGB image
-A = imread('image1.jpg');
+A = imread('fig6.37.jpg');
 % Convert RGB image to Grayscale
 A_gray = rgb2gray(A);
 
