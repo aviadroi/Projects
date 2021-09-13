@@ -1,3 +1,5 @@
+% A program which converts a given image to 10 levels of gray, which are represented by 10 (3 x 3) dot patterns of black and white dots.
+
 clear all; close all; clc;
 
 % Read a RGB image
