@@ -1,5 +1,5 @@
 % This is 2D Fourier Transform "package". It takes an image and computes its (centered) Fourier spectrum. It then shows the inverse transform.
-% It uses a Gaussian lowpass filter in the frequency domain, and compares it with direct filtering in the spatial domain. 
+% It uses a Gaussian lowpass filter in the frequency domain and compares it with direct filtering in the spatial domain. 
 spectrum
 h=[-1 0 1;-2 0 2;-1 0 1];
 t = imread('fig4.41a.jpg');
