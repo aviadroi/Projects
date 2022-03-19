@@ -1,4 +1,8 @@
-// A program which solves Sudoku.
+// You're given a two-dimensional array that
+// represents a 9x9 partially filled Sudoku board.
+// Here is a function that returns the solved
+// Sudoku board.
+
 
 #include <iostream>
 #include <cmath>
